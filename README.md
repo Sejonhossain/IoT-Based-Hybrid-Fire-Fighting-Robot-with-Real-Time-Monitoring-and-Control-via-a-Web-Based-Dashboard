@@ -2,6 +2,7 @@
 
 An autonomous fire-fighting robot built using **dual ESP32 microcontrollers**, combining real-time environmental sensing, autonomous navigation, fire extinguishing, live video streaming, and a web-based monitoring and control system.
 
+---
 ## 🚀 Overview
 
 The system uses two ESP32 boards:
@@ -11,6 +12,7 @@ The system uses two ESP32 boards:
 
 The robot can autonomously detect the direction of a fire, navigate toward it, activate a water pump, and sweep the nozzle across a **45°–135°** range to extinguish the flame. A real-time web dashboard provides sensor monitoring and manual control.
 
+---
 ## ✨ Key Features
 
 - 🔥 **Directional Fire Detection**
