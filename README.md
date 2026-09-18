@@ -1,33 +1,72 @@
-# 🔥 IoT-Based Fire-Fighting Robot
+# 🔥 An IoT-Based Hybrid Fire-Fighting Robot with Real-Time Monitoring and Control System via a Web-Based Dashboard
 
-An IoT-based hybrid fire-fighting robot with **autonomous fire detection, real-time monitoring, and web-based remote control**.
+An autonomous fire-fighting robot built using **dual ESP32 microcontrollers**, combining real-time environmental sensing, autonomous navigation, fire extinguishing, live video streaming, and a web-based monitoring and control system.
 
----
+## 🚀 Overview
 
-## 📌 Overview
+The system uses two ESP32 boards:
 
-This project presents a **WiFi-controlled fire-fighting robot** designed to detect and extinguish fire while providing real-time monitoring through a web-based dashboard.
+- **ESP32 DevKit** — sensor processing, motor control, fire detection, pump control, web dashboard, and autonomous navigation
+- **ESP32-CAM** — live video streaming, pan-tilt camera control, and adjustable LED flash
 
-The system uses **two ESP32 microcontrollers**. The main ESP32 controls the sensors, motors, water pump, and web dashboard, while the ESP32-CAM provides **live video streaming with pan-tilt camera control**.
+The robot can autonomously detect the direction of a fire, navigate toward it, activate a water pump, and sweep the nozzle across a **45°–135°** range to extinguish the flame. A real-time web dashboard provides sensor monitoring and manual control.
 
----
+## ✨ Key Features
 
-## ✨ Features
+- 🔥 **Directional Fire Detection**
+  - 3 analog flame sensors for left, center, and right fire detection
+  - Detects fire direction and adjusts robot movement accordingly
 
-- 🔥 Autonomous fire detection
-- 🎯 Directional fire detection using three flame sensors
-- 💨 Smoke detection using MQ2 sensor
-- 🌡️ Temperature and humidity monitoring using DHT11
-- 🚒 Automatic fire extinguishing using water pump
-- 🔄 Servo-controlled nozzle
-- 📹 ESP32-CAM live video streaming
-- ↔️ Pan and tilt camera control
-- 🎮 Manual robot control
-- 🌐 Web-based dashboard
-- 📡 WiFi communication
-- 🔎 mDNS-based device discovery
+- 🤖 **Autonomous Navigation**
+  - Automatically repositions toward the detected fire
+  - Prioritizes fire detection and extinguishing logic
+  - Activates the water pump when the robot reaches the target
 
----
+- 💧 **Automatic Fire Extinguishing**
+  - Motorized water pump
+  - Servo-controlled sweeping nozzle
+  - Nozzle operating range: **45°–135°**
+  - Approximate sweep time: **2.16 seconds**
+
+- 🌡️ **Environmental Monitoring**
+  - MQ-2 gas sensor for smoke/gas detection
+  - DHT11 for temperature and humidity monitoring
+  - Real-time sensor data available through the web dashboard
+
+- 🌐 **Real-Time Web Dashboard**
+  - Built with HTML, CSS, and JavaScript
+  - Autonomous and manual control modes
+  - Motor control
+  - Water pump control
+  - Nozzle angle control
+  - LED and buzzer control
+  - Sensor monitoring with **500 ms polling interval**
+
+- 📹 **Live Video Monitoring**
+  - ESP32-CAM based live video streaming
+  - Pan-tilt camera mechanism
+  - Adjustable camera flash
+  - WebSocket-based video communication
+  - VGA resolution
+  - Measured latency: **<200 ms**
+
+- 📡 **Local Network Discovery**
+  - Uses **mDNS** for zero-configuration device discovery
+  - Allows the robot to be accessed through a local hostname instead of manually entering its IP address
+
+## 📊 Test Results
+
+| Parameter | Result |
+|---|---:|
+| Autonomous navigation test cases | **5/5 successful** |
+| Fire detection range | **20–30 cm** |
+| Nozzle sweep time | **~2.16 s** |
+| Dashboard sensor polling | **500 ms** |
+| Video resolution | **VGA** |
+| Video latency | **<200 ms** |
+
+> **Note:** Test results are based on the project's experimental setup and conditions.
+
 
 ## 🔧 Hardware Components
 
