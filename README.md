@@ -6,7 +6,7 @@ An autonomous fire-fighting robot built using **dual ESP32 microcontrollers**, c
 
 ## 🚀 Overview
 
-This project presents an autonomous fire-fighting robot designed to detect the direction of a fire, navigate toward it, and automatically extinguish it using a water pump and servo-controlled nozzle.
+This project presents a **WiFi-controlled autonomous fire-fighting robot** designed to detect the direction of a fire, navigate toward it, and automatically extinguish it using a water pump and servo-controlled nozzle.
 
 The system uses two ESP32 microcontrollers. The main ESP32 DevKit handles sensor processing, autonomous navigation, motor control, fire extinguishing, and the web dashboard. The ESP32-CAM provides live video streaming with pan-tilt camera control.
 
