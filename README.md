@@ -323,7 +323,7 @@ The system also supports **manual control**, allowing the operator to control th
     
 ---
 
-###⭐ If you find this project useful or interesting, consider giving the repository a star!
+### ⭐ If you find this project useful or interesting, consider giving the repository a star!
 
 ---
 
