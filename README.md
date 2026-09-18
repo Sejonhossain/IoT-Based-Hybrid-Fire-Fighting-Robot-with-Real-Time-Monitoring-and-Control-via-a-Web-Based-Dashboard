@@ -91,76 +91,76 @@ A real time web-based dashboard allows users to monitor sensor data and manually
 
 ## 🔧 Hardware Components
 
-### Main Controller
+ ### 🧠 Main Controller
 
-- ESP32 DevKit
+ - ESP32 DevKit
 
-### Camera Controller
+ ### 📹 Camera Controller
 
-- ESP32-CAM (AI-Thinker)
+ - ESP32-CAM (AI-Thinker)
 
-### Sensors
+ ### 📡 Sensors
 
-- Analog Flame Sensor ×3
-- MQ-2 Gas/Smoke Sensor
-- DHT11 Temperature & Humidity Sensor
+ - Analog Flame Sensor ×3
+ - MQ-2 Gas/Smoke Sensor
+ - DHT11 Temperature & Humidity Sensor
 
-### Motor & Actuation
+ ### ⚙️ Motor & Actuation
 
-- L298N Motor Driver
-- DC Gear Motors ×4
-- Water Pump
-- 1-Channel Relay Module
-- Servo Motor for Fire-Fighting Nozzle
-- Servo Motors for Camera Pan-Tilt
+ - L298N Motor Driver
+ - DC Gear Motors ×4
+ - Water Pump
+ - 1-Channel Relay Module
+ - Servo Motor for Fire-Fighting Nozzle
+ - Servo Motors for Camera Pan-Tilt
 
-### Indicators
+ ### 🚨 Indicators
 
-- LEDs
-- Buzzer
+ - LEDs
+ - Buzzer
 
-### Mechanical Components
+ ### 🏗️ Mechanical Components
 
-- Robot Chassis
-- Wheels
-- Pan-Tilt Camera Mechanism
-- Water Tank
-- Fire-Fighting Nozzle
+ - Robot Chassis
+ - Wheels
+ - Pan-Tilt Camera Mechanism
+ - Water Tank
+ - Fire-Fighting Nozzle
 
 ---
 
 ## 💻 Software & Technologies
 
-### Programming
+ ### 👨‍💻 Programming
 
-- **C/C++**
-- **Arduino Framework**
+ - **C/C++**
+ - **Arduino Framework**
 
-### Development Environment
+ ### 🛠️ Development Environment
 
-- **Arduino IDE**
-- **ESP32 Arduino Core**
+ - **Arduino IDE**
+ - **ESP32 Arduino Core**
 
-### Web Technologies
+ ### 🌐 Web Technologies
 
-- **HTML5**
-- **CSS3**
-- **JavaScript**
+ - **HTML5**
+ - **CSS3**
+ - **JavaScript**
 
-### Communication & Networking
+ ### 📡 Communication & Networking
 
-- **WiFi**
-- **HTTP**
-- **WebSocket**
-- **mDNS**
+ - **WiFi**
+ - **HTTP**
+ - **WebSocket**
+ - **mDNS**
 
-### ESP32 Libraries / Frameworks
+ ### 📚 ESP32 Libraries / Frameworks
 
-- **ESPAsyncWebServer**
-- **WebServer**
-- **WebSocket**
-- **WiFi**
-- **ESP32 Camera Library**
+ - **ESPAsyncWebServer**
+ - **WebServer**
+ - **WebSocket**
+ - **WiFi**
+ - **ESP32 Camera Library**
 
 ---
 
